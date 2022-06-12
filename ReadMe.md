@@ -2,54 +2,41 @@
 
 
 <h2>Description</h2>
-Project consists of using data from different measurements of the skull from different species of animal to measure variation across species. The script creates a screeplot that plots the principal components in order allowing them to be viewed for variance. This screeplot directly correlates with a selection menu that allows the user to pick principle components as an x and y axis for a coordinate system. After that the principal component analysis is complete.    
+This project uses deep learning techniques to build a chatbot in Python. The chatbot will be trained on the dataset which contains categories, pattern and responses. I use a special recurrent neural network (LSTM) to classify which category the user’s message belongs to and then we will give a random response from the list of responses.    
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>R</b> 
+- <b>Python</b> 
 
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b>
 
 <h2>Libraries Used</h2>
-- <b>R Color Brewer</b>
-- <b>Tidyverse</b>
-- <b>Shiny(still in development)</b>
+- <b>Numpy</b>
+- <b>NLTK</b>
+- <b>Keras</b>
+- <b>JSON</b>
 
 <h2>Program Walk Through</h2>
 
 <p align="center">
-Source the code: <br/>
-<img src="https://i.imgur.com/3CPiP15.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+Run the Chatbot training data and Chatbot GUi: <br/>
+<img src="https://i.imgur.com/FtLSA2f.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/p5JjWLd.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the species measurement csv file:  <br/>
-<img src="https://i.imgur.com/54S2H9X.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+Chatbot will Load:  <br/>
+<img src="https://i.imgur.com/o8oA6AD.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Species Metric Example: <br/>
-<img src="https://i.imgur.com/wmHB3Qr.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+The Chatbot only knows a few phrases to respond to at the moment: <br/>
+<img src="https://i.imgur.com/eWJZwDA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Organized Principal Component Species Data:  <br/>
-<img src="https://i.imgur.com/IeQPrOO.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Scree Plot with Principal Components:  <br/>
-<img src="https://i.imgur.com/4hWxRoZ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select Principal Components for Biplot:  <br/>
-<img src="https://i.imgur.com/nwJBBcd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Principal Component Analysis Biplot:  <br/>
-<img src="https://i.imgur.com/4Otw1vD.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
+
 </p>
 
 <!--
